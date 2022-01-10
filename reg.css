@@ -1,0 +1,257 @@
+        /* strona rejestracji */
+        
+        .reg {
+            margin: 0px;
+            background-image: url(/wp-content/themes/glov/images/web3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: left;
+            background-position-y: bottom;
+        }
+        
+        h2 {
+            line-height: 44px;
+            font-size: 36px;
+            font-family: 'Oswald', sans-serif;
+            color: #009bd5;
+            margin: auto;
+        }
+        
+        h4 {
+            line-height: 28px;
+            margin: auto;
+            font-weight: 100;
+            font-family: 'Questrial', sans-serif;
+            color: #009bd5;
+        }
+        
+        .x-button {
+            position: absolute;
+            right: 10;
+            padding: 50px;
+        }
+        
+        .close {
+            position: absolute;
+            right: 32px;
+            top: 32px;
+            width: 32px;
+            height: 32px;
+            opacity: 0.7;
+        }
+        
+        .close:hover {
+            opacity: 1;
+        }
+        
+        .close:before,
+        .close:after {
+            position: absolute;
+            left: 5px;
+            content: ' ';
+            height: 50px;
+            width: 2px;
+            background-color: #009bd5;
+        }
+        
+        .close:before {
+            transform: rotate(45deg);
+        }
+        
+        .close:after {
+            transform: rotate(-45deg);
+        }
+        
+        .reg-area {
+            display: block;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .reg-head {
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            line-height: 80px;
+        }
+        
+        .reg-form {
+            text-align: center;
+        }
+        
+        .reg-plate {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 480px;
+            height: 640px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .pad60top {
+            padding-top: 60px;
+        }
+        
+        .line-one,
+        .line-one-plus,
+        .line-two,
+        .line-three {
+            margin: 10px;
+        }
+        
+        input[type=submit] {
+            width: 240px;
+            height: 48px;
+            border: 2px solid #009bd5;
+            background-color: #009bd5;
+            color: #fff;
+            margin: 40px 0px 20px 0px;
+            font-family: 'Questrial', sans-serif;
+            font-size: 16px;
+        }
+        
+        input[type=submit]:hover {
+            border: 2px solid #009bd5;
+            background-color: rgba(255, 255, 255, 0);
+            color: #009bd5;
+            transition: 0.5s;
+        }
+        
+        input[type=email]::placeholder,
+        input[type=password]::placeholder {
+            color: #009bd5;
+        }
+        
+        input[type=text]::placeholder {
+            color: #154063;
+        }
+        
+        input[type=text] {
+            border: none;
+            border-bottom: 1px solid #154063;
+        }
+        
+        label {
+            color: #154063;
+            font-size: 13px;
+            letter-spacing: 1.1;
+            font-family: 'Questrial', sans-serif;
+            margin: 5px 5px 5px 0px;
+            padding: 10px 20px 10px 3px;
+            border: none;
+        }
+        
+        .approve {
+            color: #009bd5;
+        }
+        
+        .selector {
+            background-color: rgba(255, 255, 255, 0);
+            color: #154063;
+            border: none;
+            border-bottom: 1px solid #154063;
+            padding: 10px;
+            margin: 5px;
+        }
+        
+        .selector:hover {
+            border: none;
+        }
+        
+        select {
+            background-color: rgba(255, 255, 255, 0);
+            color: #154063;
+            border: none;
+            padding: 9px 10px 9px 12px;
+            outline: none;
+        }
+        
+        select:focus {
+            outline: none;
+        }
+        
+        input[type=checkbox] {
+            margin-top: 20px;
+        }
+        
+        input[type=email],
+        input[type=password] {
+            border: none;
+            border-bottom: 1px solid #009bd5;
+        }
+        
+        .reg-plate input[type=text],
+        .reg-plate input[type=password],
+        .reg-plate input[type=email] {
+            background-color: rgba(255, 255, 255, 0);
+            color: #009bd5;
+            font-size: 13px;
+            font-weight: 100;
+            font-family: 'Questrial', sans-serif;
+            letter-spacing: 1.2px;
+            padding: 10px;
+            margin: 5px;
+        }
+        
+        .reg-plate input[type=text]:focus,
+        .reg-plate input[type=password]:focus,
+        .reg-plate input[type=email]:focus {
+            outline: none;
+            background-color: rgba(255, 255, 255, 0);
+        }
+        
+        .reg-plate input[type=text]:hover,
+        .reg-plate input[type=password]:hover,
+        .reg-plate input[type=email]:hover {
+            outline: none;
+            border: none;
+        }
+        
+        .reg-plate textarea {
+            margin-top: 10px;
+            width: 85%;
+            height: 40px;
+            box-sizing: border-box;
+            resize: none;
+            background: rgba(255, 255, 255, 0);
+            border: 1px solid #154063;
+        }
+        
+        textarea::placeholder {
+            color: #009bd5;
+            font-size: 0.8em;
+            white-space: pre-wrap;
+            padding: 4px;
+        }
+        
+        .line-one {
+            color: #154063;
+            border-bottom: #154063;
+        }
+        
+        .redirect {
+            text-align: center;
+            font-family: 'Questrial', sans-serif;
+            color: #009bd5;
+            font-size: 18px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #009bd5;
+            font-weight: 900;
+        }
+        
+        .w300px {
+            width: 300px;
+        }
+        
+        .align {
+            text-align: center;
+        }
+        
+        .login {
+            padding: 90px 0px;
+        }
